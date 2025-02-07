@@ -26,25 +26,13 @@ class SelectDropdown<T> extends StatefulWidget {
 }
 
 class _SelectDropdownState<T> extends State<SelectDropdown<T>> {
-  late TextEditingController _searchController;
   List<T> _filteredItems = [];
 
   @override
   void initState() {
     super.initState();
-    _searchController = TextEditingController();
-    _filteredItems = widget.items;
-  }
 
-  void _filterItems(String query) {
-    setState(() {
-      _filteredItems = widget.items
-          .where((item) => widget
-              .itemLabel(item)
-              .toLowerCase()
-              .contains(query.toLowerCase()))
-          .toList();
-    });
+    _filteredItems = widget.items;
   }
 
   @override
