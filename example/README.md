@@ -1,8 +1,8 @@
 # Select Dropdown
 
-A Flutter package that provides a customizable dropdown widget for selecting items.
+A Flutter package that provides a customizable dropdown widget for selecting items in a user-friendly way.
 
-## Features
+## ✨ Features
 
 ✅ Customizable dropdown menu  
 ✅ Supports icons and labels  
@@ -11,18 +11,7 @@ A Flutter package that provides a customizable dropdown widget for selecting ite
 
 ---
 
-## Usage
-
-import 'package:select_dropdown/select_dropdown.dart';
-
-SelectDropdown(
-items: ['Option 1', 'Option 2', 'Option 3'],
-onChanged: (value) {
-print("Selected: $value");
-},
-);
-
-## Installation
+## 📦 Installation
 
 Add this to your `pubspec.yaml`:
 
