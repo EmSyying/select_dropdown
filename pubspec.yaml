@@ -1,7 +1,7 @@
 name: select_dropdown
 description: "A new Flutter package project."
 version: 0.0.1
-homepage:
+homepage: https://github.com/EmSyying/select_dropdown
 
 environment:
   sdk: ^3.6.1
