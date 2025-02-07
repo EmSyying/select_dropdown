@@ -1,5 +1,5 @@
 name: select_dropdown
-description: "A new Flutter package project."
+description: A Flutter package that provides a customizable dropdown widget for selecting items.
 version: 0.0.1
 homepage: https://github.com/EmSyying/select_dropdown
 
